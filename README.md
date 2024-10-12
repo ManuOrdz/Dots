@@ -37,19 +37,15 @@
 git clone https://github.com/ManuOrdz/Nvim-Dots.git ~/.config/nvim
 ```
 
-```
-
 ---
 
 ## Plugins principales
 
 Esta configuración incluye algunos de los plugins más populares para mejorar la productividad:
 
- 
 - **[Telescope](https://github.com/nvim-telescope/telescope.nvim)**: Búsqueda y navegación rápida.
 - **[Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)**: Resaltado de sintaxis avanzado.
 - **[Lualine](https://github.com/nvim-lualine/lualine.nvim)**: Barra de estado personalizable.
-
 
 ## Atajos de teclado
 
@@ -70,17 +66,16 @@ Puedes personalizar estos atajos editando el archivo `lua/keymaps.lua`.
 
 Esta configuración proporciona soporte para varios lenguajes a través del cliente LSP y plugins adicionales:
 
-
 - **Python**: Configurado con `pyright`.
 - **Lua**: Optimización para la configuración de Neovim.
   
-
 ## Temas y personalización
 
 El tema por defecto de esta configuración es **kanagawa**. Sin embargo, puedes cambiarlo fácilmente:
 
 1. Abre el archivo `lua/settings.lua`.
 2. Cambia el nombre del tema en la sección correspondiente:
+
    ```lua
-   vim.cmd("colorscheme kanagawa$")
+   vim.cmd("colorscheme kanagawa")
    ```
