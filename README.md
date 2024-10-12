@@ -33,13 +33,9 @@
 
 ## Instalació> [!NOTE]
 
-````
-````
-
 ``` $ bash
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-
-````
+git clone https://github.com/ManuOrdz/Nvim-Dots.git ~/.config/nvim
+```
 
 ```
 
