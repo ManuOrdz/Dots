@@ -20,18 +20,12 @@
 ## Requisitos
 
 - **Neovim** v0.9 o superior  
-- **Git** para la instalación de plugins  
-- **Python** con soporte para `pynvim`:  
-
-  ```bash
-  pip install pynvim
-  ```
-
+- **Git** para la instalación de Plugins
 - **Ripgrep** (opcional pero recomendado para búsquedas rápidas)
 
 ---
 
-## Instalació> [!NOTE]
+## Instalación
 
 ``` $ bash
 git clone https://github.com/ManuOrdz/Nvim-Dots.git ~/.config/nvim
