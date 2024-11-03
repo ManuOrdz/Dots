@@ -1,4 +1,4 @@
-# Configuración de Neovim (nvim)
+# Configuración de Neovim (Termux-Proot)
 
 ¡Bienvenido al repositorio de configuración personalizada de Neovim! Este proyecto tiene como objetivo proporcionar una configuración optimizada, modular y fácil de mantener para desarrolladores que utilizan Neovim como editor principal. A continuación, encontrarás instrucciones para la instalación, organización de los archivos, plugins utilizados y cómo extender la configuración según tus necesidades.
 
@@ -71,5 +71,5 @@ El tema por defecto de esta configuración es **kanagawa**. Sin embargo, puedes 
 2. Cambia el nombre del tema en la sección correspondiente:
 
    ```lua
-   vim.cmd("colorscheme kanagawa")
+   :colorscheme kanagawa
    ```
